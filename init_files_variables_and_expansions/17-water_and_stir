@@ -1,0 +1,4 @@
+#!/bin/bash
+w=$(echo "$WATER" | tr "water" "01234")
+s=$(echo "$STIR" | tr "stir." "01234")
+printf "%o\n" "$((5#$w + 5#$s))" | tr "01234567" "bestchol"
