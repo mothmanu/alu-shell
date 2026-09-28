@@ -7,15 +7,15 @@ while ((count <= 20))
 do
 	case $count in 
 		4)
-			printf "4\n bad luck from China\n"
+			printf "4\nbad luck from China\n"
 			;;
 
 		9)
-			printf "9\n bad luck from Japan\n"
+			printf "9\nbad luck from Japan\n"
 			;;
 
 		17)
-			printf "17\n bad luck from Italy\n"
+			printf "17\nbad luck from Italy\n"
 			;;
 
 		*)
