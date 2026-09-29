@@ -6,7 +6,7 @@ hour=0
 while ((hour <= 12))
 do
 	echo "Hour: $hour"
-	minnute=1
+	minute=1
 	while ((minute <= 59))
 	do
 		echo "$minute"
