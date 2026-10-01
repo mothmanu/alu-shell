@@ -13,5 +13,6 @@ do
 		echo "Buzz"
 	else
 		echo "$count"
+	fi
 	((count++))
 done 
